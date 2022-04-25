@@ -18,12 +18,12 @@ body{
     /* rgb(165, 183, 190);  */
 
 }
-.top-box{    color: rgb(0, 0, 0); width: 1198px;margin: auto; display: flex; justify-content: space-between; padding-right: 25px; }
+.top-box{    color: rgb(0, 0, 0); width: 1248px;margin: auto; display: flex; justify-content: space-between; padding-right: 25px; }
 
 .nav-top-top{
     display: flex;
     
-    width: 30%;
+    width: 31%;
     justify-content: space-between;
 }
 .top-box a{
@@ -53,7 +53,7 @@ body{
 }
  .container{
     
-    width: 1200px;
+    width: 1250px;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -72,7 +72,7 @@ body{
 .contents{
     
     
-    width: 1200px;
+    width: 1250px;
     height: 90px;
     margin: auto;
     /* border: 1px solid black; */
@@ -221,11 +221,61 @@ margin-top: 10px;
 }
 .news{
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
-    width: 740px;
+    width: 790px;
     background-color: rgb(224, 224, 224);
     /* border: 1px solid black; */
     float: left;
     margin-left: 10px;
+    text-align: center;
+}
+
+.head-post{
+    margin: auto;
+    width: 360px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.cont-post{
+    margin: 0 10px;
+    width: 770px;
+}
+
+.post{
+    width: 175.5px;
+    height: 260px;
+    margin: 0 1.1%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-bottom: 16.9px;
+}
+
+.post:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2); 
+}
+
+.img-post{
+    width: 88.45%;
+    height: 130px;
+    margin: 10px 10px 5px 10px;
+    border: 1px solid black;
+}
+
+.button-container-post
+{
+    width: 88.45%;
+    height: 30px;
+    margin: 5px 10px;
+    border: 1px solid black;
+}
+
+.title-post{
+    border: 1px solid black;
+    margin: auto;
+    width: 88.45%;
+    height: 70px;
 }
 
 .inf{
@@ -239,7 +289,7 @@ margin-top: 10px;
     
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
     height: 300px;
-    
+
     background-color: rgb(224, 224, 224);
     /* border: 1px solid black; */
     margin-bottom: 10px;
